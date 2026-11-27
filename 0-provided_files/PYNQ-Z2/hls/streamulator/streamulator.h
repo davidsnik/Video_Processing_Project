@@ -19,12 +19,12 @@
 #define HEIGHT 720
 
 // Image paths
-#define INPUT_DIR  "../../../../inframes/"
-#define OUTPUT_DIR "../../../../outframes/"
+#define INPUT_DIR  "/home/simon/Documents/electrical_engineering/year_5/quarter_2/reconfigurable_computing_design/RCD_git/Video_Processing_Project/3-video_processing_with_overlays/inframes/"
+#define OUTPUT_DIR "/home/simon/Documents/electrical_engineering/year_5/quarter_2/reconfigurable_computing_design/RCD_git/Video_Processing_Project/3-video_processing_with_overlays/outframes/"
 
-#define FRAMES_LIST "../../../../inframes/frames.txt"
+#define FRAMES_LIST "/home/simon/Documents/electrical_engineering/year_5/quarter_2/reconfigurable_computing_design/RCD_git/Video_Processing_Project/3-video_processing_with_overlays/inframes/frames.txt"
 
-//#define RAW_FILENAME "../../../../outframes/raw.png"
+#define RAW_FILENAME "/home/simon/Documents/electrical_engineering/year_5/quarter_2/reconfigurable_computing_design/RCD_git/Video_Processing_Project/3-video_processing_with_overlays/outframes/raw.png"
 
 
 // Stream processing function

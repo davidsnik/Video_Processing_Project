@@ -68,7 +68,7 @@ void delay (pixel_stream &src, pixel_stream &dst)
 }
 
 
-void stream (pixel_stream &src, pixel_stream &dst, int frame)
+void stream1 (pixel_stream &src, pixel_stream &dst, int frame)
 {
 	delay(src, dst);
 }

@@ -64,6 +64,7 @@ void processStream (pixel_stream &src, pixel_stream &dst)
 		stream(src, dst, frame);
 
 		pixel++;
+		std::cout << "Pixel:" << pixel << std::endl;
 		if (pixel >= WIDTH*HEIGHT)
 		{
 			pixel = 0;
@@ -222,7 +223,7 @@ int main ()
 			if (filename == "-")
 				saveFrame(syncedStream, "");
 			else
-				saveFrame(syncedStream, os.str());
+				saveFrame(procStream, os.str());
 			frame++;
 		}
 #endif
