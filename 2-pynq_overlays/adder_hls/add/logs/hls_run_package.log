@@ -1,0 +1,46 @@
+  **** HLS Build v2026.1 6493734
+INFO: [HLS 200-2005] Using work_dir /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component '/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../add.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/add.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../add_tb.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding test bench file '/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/add_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=add' from hls_config.cfg(6)
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(9)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(4)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/vitis-comp.json
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 14-nov-2027.
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Wed Nov 25 12:30:16 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/hls_data.json outdir=/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip srcdir=/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip/misc
+INFO: Copied 2 verilog file(s) to /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip/hdl/verilog
+INFO: Copied 2 vhdl file(s) to /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip/drivers
+INFO: Import ports from HDL: /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip/hdl/vhdl/add.vhd (add)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip/component.xml
+INFO: Created IP archive /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip/xilinx_com_hls_add_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 25 12:30:19 2026...
+INFO: [HLS 200-802] Generated output file add/add.zip
+INFO: [HLS 200-112] Total CPU user time: 7.99 seconds. Total CPU system time: 1.06 seconds. Total elapsed time: 5.04 seconds; peak allocated memory: 340.801 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 8s

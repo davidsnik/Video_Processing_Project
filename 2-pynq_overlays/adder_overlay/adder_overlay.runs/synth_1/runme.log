@@ -1,0 +1,264 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 14-nov-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 25 13:24:03 2026
+# Process ID         : 998080
+# Current directory  : /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1
+# Command line       : vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file           : /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/design_1_wrapper.vds
+# Journal file       : /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/vivado.jou
+# Running On         : fedora
+# Platform           : Fedora
+# Operating System   : Fedora Linux 44 (KDE Plasma Desktop Edition)
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 275HX
+# CPU Frequency      : 2195.879 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 24
+# Host memory        : 66795 MB
+# Swap memory        : 146028 MB
+# Total Virtual      : 212824 MB
+# Available Virtual  : 143077 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Wed Nov 25 13:24:03 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/david/Xilinx/2026.1/data/ip'.
+Command: synth_design -top design_1_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Designutils 20-5008] Incremental synthesis strategy default
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 998164
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2660.535 ; gain = 515.062 ; free physical = 6239 ; free virtual = 135095
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_add_0_0' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_add_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_add_0_0' (0#1) [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_add_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (0#1) [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_axi_smc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:158]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:158]
+WARNING: [Synth 8-7023] instance 'axi_smc' of module 'design_1_axi_smc_0' has 59 connections declared, but only 57 given [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:158]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:216]
+WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:216]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 65 connections declared, but only 63 given [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:216]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (0#1) [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/.Xil/Vivado-998080-fedora/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:280]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:280]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:280]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:280]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:280]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2762.473 ; gain = 617.000 ; free physical = 5788 ; free virtual = 134890
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2771.379 ; gain = 625.906 ; free physical = 5727 ; free virtual = 134859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2771.379 ; gain = 625.906 ; free physical = 5727 ; free virtual = 134859
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2771.379 ; gain = 0.000 ; free physical = 5726 ; free virtual = 134858
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Finished Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_add_0_0/design_1_add_0_0/design_1_add_0_0_in_context.xdc] for cell 'design_1_i/add_0'
+Finished Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_add_0_0/design_1_add_0_0/design_1_add_0_0_in_context.xdc] for cell 'design_1_i/add_0'
+Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Finished Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
+Finished Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
+Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2820.305 ; gain = 0.000 ; free physical = 5420 ; free virtual = 134861
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2820.340 ; gain = 0.000 ; free physical = 5419 ; free virtual = 134861
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2820.340 ; gain = 674.867 ; free physical = 5479 ; free virtual = 134861
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2828.309 ; gain = 682.836 ; free physical = 5479 ; free virtual = 134861
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2828.309 ; gain = 682.836 ; free physical = 5471 ; free virtual = 134853
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2828.309 ; gain = 682.836 ; free physical = 5471 ; free virtual = 134854
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2828.309 ; gain = 682.836 ; free physical = 5479 ; free virtual = 134865
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2934.309 ; gain = 788.836 ; free physical = 5336 ; free virtual = 134765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2934.309 ; gain = 788.836 ; free physical = 5336 ; free virtual = 134765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2944.324 ; gain = 798.852 ; free physical = 5328 ; free virtual = 134757
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.137 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.137 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.137 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.137 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.137 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.137 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |design_1_add_0_0                |         1|
+|2     |design_1_axi_smc_0              |         1|
+|3     |design_1_processing_system7_0_0 |         1|
+|4     |design_1_rst_ps7_0_100M_0       |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |design_1_add_0                |     1|
+|2     |design_1_axi_smc              |     1|
+|3     |design_1_processing_system7_0 |     1|
+|4     |design_1_rst_ps7_0_100M       |     1|
++------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.137 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3150.137 ; gain = 955.703 ; free physical = 5131 ; free virtual = 134562
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3150.145 ; gain = 1004.664 ; free physical = 5131 ; free virtual = 134562
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3150.145 ; gain = 0.000 ; free physical = 5131 ; free virtual = 134562
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3150.145 ; gain = 0.000 ; free physical = 5285 ; free virtual = 134718
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 26f6ab0f
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+28 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 3150.172 ; gain = 1199.246 ; free physical = 5260 ; free virtual = 134693
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2030.312; main = 1992.269; forked = 278.763
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4638.957; main = 3150.141; forked = 1689.629
+INFO: [Common 17-1381] The checkpoint '/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 25 13:24:21 2026...

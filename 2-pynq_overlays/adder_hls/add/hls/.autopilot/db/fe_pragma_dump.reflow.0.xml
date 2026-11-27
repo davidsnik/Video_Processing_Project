@@ -1,0 +1,6 @@
+<pragmas>
+<pragma file="../add.cpp" line="0" pragmaType="fpga.handshake.mode" parentfunction="add" mode="ap_ctrl_none" name="ap_ctrl_none"/>
+<pragma file="../add.cpp" line="3" pragmaType="interface" parentfunction="add" mode="s_axilite" port="a" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../add.cpp" line="4" pragmaType="interface" parentfunction="add" mode="s_axilite" port="b" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../add.cpp" line="5" pragmaType="interface" parentfunction="add" mode="s_axilite" port="y" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/add.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Nov 25 12:30:13 2026",
+ "timestampMillis": "1795606213357",
+ "buildStep": {
+  "cmdId": "2d4e7396-5f71-4860-8dad-001a705ed6c6",
+  "name": "vitis-run",
+  "logFile": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/logs/add.steps.log",
+  "commandLine": "/home/david/Xilinx/2026.1/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/hls_config.cfg --work_dir add ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/hls_config.cfg",
+   "--work_dir",
+   "add"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 25 12:30:13 2026",
+ "timestampMillis": "1795606213357",
+ "status": {
+  "cmdId": "2d4e7396-5f71-4860-8dad-001a705ed6c6",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Nov 25 12:30:15 2026",
+ "timestampMillis": "1795606215225",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "add",
+     "file": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/add.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/add.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2026.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Nov 25 12:30:15 2026",
+ "timestampMillis": "1795606215225",
+ "buildStep": {
+  "cmdId": "ee4139fa-1287-45a3-85fd-66e45694446f",
+  "name": "",
+  "logFile": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/add/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 25 12:30:15 2026",
+ "timestampMillis": "1795606215225",
+ "status": {
+  "cmdId": "ee4139fa-1287-45a3-85fd-66e45694446f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 25 12:30:19 2026",
+ "timestampMillis": "1795606219244",
+ "status": {
+  "cmdId": "ee4139fa-1287-45a3-85fd-66e45694446f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Nov 25 12:30:19 2026",
+ "timestampMillis": "1795606219307",
+ "status": {
+  "cmdId": "2d4e7396-5f71-4860-8dad-001a705ed6c6",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 25 12:30:19 2026",
+ "timestampMillis": "1795606219307",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Nov 25 12:30:19 2026",
+ "timestampMillis": "1795606219307",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

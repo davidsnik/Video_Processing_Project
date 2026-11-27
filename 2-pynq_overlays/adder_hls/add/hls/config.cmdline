@@ -1,0 +1,3 @@
+relativeroot=/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls
+original_argv=--mode hls --package --config /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls/hls_config.cfg --work_dir add 
+
