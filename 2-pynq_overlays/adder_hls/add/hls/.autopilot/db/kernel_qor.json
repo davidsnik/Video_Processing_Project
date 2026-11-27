@@ -1,0 +1,14 @@
+{
+    "name": "add",
+    "type": "function",
+    "pipelined": "yes",
+    "dataflowed": "no",
+    "original_ti": 1,
+    "original_tl": 0,
+    "calculated_ti": -1,
+    "calculated_tl": -1,
+    "assume_ti": -1,
+    "assume_tl": -1,
+    "CIs": [],
+    "loops": []
+}

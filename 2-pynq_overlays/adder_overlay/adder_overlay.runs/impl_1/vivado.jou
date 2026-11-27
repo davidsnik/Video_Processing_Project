@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 25 13:24:22 2026
+# Process ID         : 998464
+# Current directory  : /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/impl_1
+# Command line       : vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file           : /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/impl_1/design_1_wrapper.vdi
+# Journal file       : /mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_overlay/adder_overlay.runs/impl_1/vivado.jou
+# Running On         : fedora
+# Platform           : Fedora
+# Operating System   : Fedora Linux 44 (KDE Plasma Desktop Edition)
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 275HX
+# CPU Frequency      : 5198.221 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 24
+# Host memory        : 66795 MB
+# Swap memory        : 146028 MB
+# Total Virtual      : 212824 MB
+# Available Virtual  : 142888 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

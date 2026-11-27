@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls",
+    "arguments": [
+      "/home/david/Xilinx/2026.1/Vitis/lnx64/tools/clang-16/bin/clang++",
+      "--gcc-toolchain=/home/david/Xilinx/2026.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/david/Xilinx/2026.1/Vitis/common/technology/autopilot",
+      "-fhlstoplevel=add",
+      "-c",
+      "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/add.cpp"
+    ],
+    "file": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/add.cpp"
+  },
+  {
+    "directory": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/adder_hls",
+    "arguments": [
+      "/home/david/Xilinx/2026.1/Vitis/lnx64/tools/clang-16/bin/clang++",
+      "--gcc-toolchain=/home/david/Xilinx/2026.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=/home/david/Xilinx/2026.1/Vitis/include",
+      "-c",
+      "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/add_tb.cpp"
+    ],
+    "file": "/mnt/ssd1/data/Projects/University/EE/Reconfigurable_Computing_Design/2-pynq_overlays/add_tb.cpp"
+  }
+]
